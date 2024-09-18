@@ -11,12 +11,12 @@
     background-color: #f9f9f9;
 }
 
-/* Estilo geral do formulário */
+
 form {
     margin-bottom: 20px;
 }
 
-/* Estilo dos labels e inputs */
+
 label {
     font-weight: bold;
     display: block;
@@ -48,7 +48,7 @@ input[type="submit"]:hover {
     background-color: #45a049;
 }
 
-/* Estilo da tabela */
+
 table {
     width: 100%;
     border-collapse: collapse;
