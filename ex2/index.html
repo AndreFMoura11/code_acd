@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario HTML</title>
+</head>
+<body>
+    <h1>Formulario HTML</h1>
+    <form action="">
+        <label for="">Nome</label>
+        <br>
+        <input type="text" name="nome">
+        <br>
+        <label for="">Qual a sua cor favorita ?</label>
+        <br>
+        <input type="color" name="Cor" id="">
+        <br>
+        <label for="">Estado Civil</label> <br>
+
+        <input type="radio" name="estado_civil" id="casado(a)"> 
+        <label for="casado">Casado(a)</label> <br>
+
+        <input type="radio" name="estado_civil" id="solteiro"> 
+        <label for="solteiro">solteiro</label> <br>
+
+        <input type="radio" name="estado_civil" id="Viuvo"> 
+        <label for="Viuvo">Viuvo</label> <br>
+
+        <input type="checkbox" name="linguagens[]" value="HTML5" id="html">
+        <label for="html">HTML5</label> 
+        <br>
+
+        <input type="checkbox" name="linguagens[]" value="css" id="css">
+        <label for="css">css</label> 
+        <br>
+
+        <input type="checkbox" name="linguagens[]" value="javascript" id="javascript">
+        <label for="javascript">javascript</label> 
+        <br>
+
+        <label for="cidade">Qual a sua cidade?</label>
+        <br>
+        <select name="cidade" id="cidade">
+            <option value="">Selecione a cidade </option>
+            <option value="aracoiaba">1 - Aracoiaba</option>
+            <option value="Fortaleza">2 - Fortaleza</option>
+            <option value="Morada Nova">3 - Morada Nova</option>
+        </select>
+
+        <label for="mensagem">Mensagem</label><br>
+        <textarea name="mensagem" id="mensagem" rows="10" cols="50"></textarea> <!---->
+        <br>
+
+        <input type="submit" value="Enviar">
+    </form>
+    
+</body>
+</html>
