@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/*https://dontpad.com/fs21*/  
+/*https://dontpad.com/fs21/codigo*/
+* {
+    margin: 0;
+    padding: 0;
+}
+/* https://dontpad.com/fs21 */
+header {
+    height: 100px;
+    background-color: #ccc;
+    color: #FFF;
+
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+#logo {
+    width: 20%;
+}
+#logo img {
+    height: 100%;
+}
+#menu {
+    width: 80%;
+}
+
